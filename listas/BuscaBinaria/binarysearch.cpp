@@ -29,7 +29,7 @@ int main(){
     for (int i = 0; i < n; i++){
         cin >> v[i];
     }
-    ll l = 1, r = 2e14+1, res = -1;
+    ll l = 1, r = 200000000000000, res = -1;
     while(l <= r){
         ll mid = (l+r)/2;
         if (P(v, k, mid)){
